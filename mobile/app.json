@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "SkillSwap",
+    "slug": "skillswap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.skillswap.app"
+    },
+    "android": {
+      "package": "com.skillswap.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/icon.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them on gigs.",
+          "cameraPermission": "The app accesses your camera to let you take photos for gigs."
+        }
+      ],
+      "expo-status-bar"
+    ]
+  }
+}
