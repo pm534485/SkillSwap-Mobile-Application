@@ -35,4 +35,4 @@ export const validateGig = (values) => {
   if (!values.location) errors.location = 'Location is required';
   if (!values.availability) errors.availability = 'Availability is required';
   return errors;
-};\n
+};

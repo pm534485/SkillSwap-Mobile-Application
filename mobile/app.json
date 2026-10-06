@@ -29,7 +29,8 @@
           "cameraPermission": "The app accesses your camera to let you take photos for gigs."
         }
       ],
-      "expo-status-bar"
+      "expo-status-bar",
+      "expo-font"
     ]
   }
 }

@@ -33,4 +33,4 @@ export const storage = {
       await AsyncStorage.multiRemove(appKeys);
     } catch (e) { console.error('Storage clear error', e); }
   }
-};\n
+};

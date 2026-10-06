@@ -68,4 +68,4 @@ export const apiClient = {
     if (!res.ok) throw new Error('Upload failed');
     return res.json();
   }
-};\n
+};

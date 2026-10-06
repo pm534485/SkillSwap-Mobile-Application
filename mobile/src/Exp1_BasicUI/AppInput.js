@@ -49,4 +49,4 @@ const styles = StyleSheet.create({
   toggle: { paddingHorizontal: 10 },
   toggleText: { color: theme.colors.primary, fontWeight: '500' },
   errorText: { color: theme.colors.error, fontSize: 12, marginTop: 4 }
-});\n
+});

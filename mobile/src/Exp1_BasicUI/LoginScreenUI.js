@@ -61,4 +61,4 @@ const styles = StyleSheet.create({
   title: { textAlign: 'center', color: theme.colors.primary, marginBottom: 8 },
   subtitle: { textAlign: 'center', marginBottom: 32 },
   linkButton: { backgroundColor: 'transparent', marginTop: 8 }
-});\n
+});

@@ -80,4 +80,4 @@ const styles = StyleSheet.create({
   scroll: { padding: theme.spacing.l, flexGrow: 1, justifyContent: 'center' },
   title: { textAlign: 'center', marginBottom: 24 },
   linkButton: { backgroundColor: 'transparent', marginTop: 8 }
-});\n
+});

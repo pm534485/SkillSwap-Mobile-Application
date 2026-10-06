@@ -36,4 +36,4 @@ export const RegisterScreen = ({ navigation }) => {
       onNavigateLogin={() => navigation.navigate('Login')} 
     />
   );
-};\n
+};

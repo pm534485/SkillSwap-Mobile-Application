@@ -19,4 +19,4 @@ const styles = StyleSheet.create({
   subtitle: { ...theme.typography.subtitle, color: theme.colors.text },
   body: { ...theme.typography.body, color: theme.colors.text },
   caption: { ...theme.typography.caption }
-});\n
+});

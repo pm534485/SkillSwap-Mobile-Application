@@ -47,4 +47,4 @@ export const useForm = (initialValues, validate, onSubmit) => {
   }, [values, validate]);
 
   return { values, errors, touched, handleChange, handleBlur, handleSubmit, reset, isValid };
-};\n
+};

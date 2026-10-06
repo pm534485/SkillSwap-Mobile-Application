@@ -44,4 +44,4 @@ export const useBookingCart = () => {
   const context = useContext(BookingCartContext);
   if (!context) throw new Error('useBookingCart must be used within a BookingCartProvider');
   return context;
-};\n
+};
